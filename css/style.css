@@ -1,0 +1,70 @@
+*{
+box-sizing:border-box;
+font-family:arial;
+}
+
+#s-container{
+width:700px;
+border:white 1px solid;
+height:400px;
+margin:auto;
+background:black;
+}
+
+#clearfix{
+
+overflow:auto;
+}
+
+
+
+#slide{
+width:70%;
+height:400px;
+float:left;
+}
+
+a{
+  text-decoration:none;
+}
+
+#slide h3{
+margin-top:20px;
+text-transform:capitalize;
+text-align:center;
+vertical-align:middle;
+color:white;
+}
+
+#s-selection{
+width:30%;
+border-left:1px solid white;
+float:left;
+}
+
+.select{
+border-bottom:1px solid white;
+background:black;
+height:100px;
+transition: background 1s;
+}
+
+.select:hover{
+cursor:pointer;
+
+}
+
+.select:hover:nth-child(1){
+background:red;
+}
+
+.select:hover:nth-child(2){
+background:blue;
+}
+
+.select:hover:nth-child(3){
+background:green;
+}
+.select:hover:nth-child(4){
+background:purple;
+}
